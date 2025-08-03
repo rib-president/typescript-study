@@ -4,13 +4,14 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Counter from "./Counter/Counter";
+import { Quiz } from "./ Quiz/Quiz";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
 );
 root.render(
   <React.StrictMode>
-    <Counter />
+    <Quiz />
   </React.StrictMode>,
 );
 
