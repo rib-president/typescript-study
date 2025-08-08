@@ -5,13 +5,14 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Counter from "./Counter/Counter";
 import { Quiz } from "./ Quiz/Quiz";
+import { Todolist } from "./Todolist/Todolist";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
 );
 root.render(
   <React.StrictMode>
-    <Quiz />
+    <Todolist />
   </React.StrictMode>,
 );
 
