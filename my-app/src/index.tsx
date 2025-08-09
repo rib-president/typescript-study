@@ -6,13 +6,14 @@ import reportWebVitals from "./reportWebVitals";
 import Counter from "./Counter/Counter";
 import { Quiz } from "./ Quiz/Quiz";
 import { Todolist } from "./Todolist/Todolist";
+import { Game } from "./TicTacToe/Game";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
 );
 root.render(
   <React.StrictMode>
-    <Todolist />
+    <Game />
   </React.StrictMode>,
 );
 
